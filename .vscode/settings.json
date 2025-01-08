@@ -1,0 +1,64 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/dist": true,
+        "**/node_modules/**": true,
+        "**/tsconfig.tsbuildinfo": true
+    },
+    // Allows formatting XML and SVG files by prettier
+    "files.associations": {
+        "*.xml": "html",
+        "*.svg": "html"
+    },
+    "search.exclude": {
+        "**/dist": true,
+        "**/node_modules/**": true,
+        "**/*.code-search": true,
+        "yarn.lock": true,
+        "**/.yarn": true,
+        "**/.pnp.*": true,
+        "**/legacy": true
+    },
+    "search.followSymlinks": true,
+    "terminal.integrated.env.osx": {
+        "NODE_OPTIONS": "--max-old-space-size=8192"
+    },
+    "terminal.integrated.env.windows": {
+        "NODE_OPTIONS": "--max-old-space-size=8192"
+    },
+    "javascript.format.enable": false,
+    "json.format.enable": false,
+    "npm.packageManager": "yarn",
+    "npm.scriptExplorerAction": "run",
+    "typescript.format.enable": false,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "eslint.lintTask.enable": true,
+    "eslint.useFlatConfig": false,
+    "eslint.codeAction.showDocumentation": {
+        "enable": true
+    },
+    "eslint.validate": ["javascript", "typescript", "vue"],
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#e35252",
+        "activityBar.background": "#e35252",
+        "activityBar.foreground": "#ffffff",
+        "activityBar.inactiveForeground": "#ffffff",
+        "activityBarBadge.background": "#24db24",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#e35252",
+        "statusBar.background": "#dc2626",
+        "statusBar.foreground": "#ffffff",
+        "statusBarItem.hoverBackground": "#e35252",
+        "statusBarItem.remoteBackground": "#dc2626",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#dc2626",
+        "titleBar.activeForeground": "#ffffff",
+        "titleBar.inactiveBackground": "#dc262699",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "dc2626"
+}
