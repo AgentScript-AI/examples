@@ -96,8 +96,8 @@ await executeAgent({ agent });
 
 // We can now inspect the agent variables and output
 console.log(chalk.green('Agent variables:'));
-console.log(agent.state?.root.variables);
+console.log(agent.root.variables);
 console.log();
 
 console.log(chalk.green('Agent output:'));
-console.log(agent.state?.output);
+console.log(agent.output);
