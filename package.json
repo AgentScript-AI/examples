@@ -6,11 +6,14 @@
     },
     "author": "Michał Kędrzyński <m.kedrzynski@gmail.com>",
     "private": true,
+    "scripts": {
+        "upgrade": "yarn up agentscript-ai \"@agentscript-ai/*\" && yarn upgrade-interactive"
+    },
     "devDependencies": {
-        "@agentscript-ai/tsconfig": "^0.1.2",
+        "@agentscript-ai/tsconfig": "^0.2.0",
         "prettier": "^3.4.2",
         "ts-node": "^10.9.2",
-        "typescript": "^5.7.2"
+        "typescript": "^5.7.3"
     },
     "workspaces": [
         "*"

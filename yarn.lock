@@ -5,42 +5,43 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
-"@agentscript-ai/anthropic@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@agentscript-ai/anthropic@npm:0.1.2"
+"@agentscript-ai/anthropic@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@agentscript-ai/anthropic@npm:0.2.0"
   dependencies:
-    "@agentscript-ai/core": "npm:^0.1.2"
-    "@agentscript-ai/utils": "npm:^0.1.2"
+    "@agentscript-ai/core": "npm:^0.2.0"
+    "@agentscript-ai/utils": "npm:^0.2.0"
     "@anthropic-ai/sdk": "npm:^0.33.1"
-    "@nzyme/ioc": "npm:^0.3.0"
-    "@nzyme/utils": "npm:^0.3.0"
-  checksum: 10c0/7d61b001362bebaa5fa779095885532b306f2c0f2bbb043b5ba3803830f99d6c9da526f02bc20e78e176facae377345c3bb69978df0cbe658d31afce85d0158a
+    "@nzyme/ioc": "npm:^0.4.0"
+    "@nzyme/utils": "npm:^0.4.0"
+  checksum: 10c0/22ea0cb83c841af6d14f942c9f8dad90e1fcdbaaf6e0cbededc695a405812c0be70d579a7642a3397cfa61b488916c1e019a8c0d3a0472ab496cc0270303ad92
   languageName: node
   linkType: hard
 
-"@agentscript-ai/core@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@agentscript-ai/core@npm:0.1.2"
+"@agentscript-ai/core@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@agentscript-ai/core@npm:0.2.0"
   dependencies:
-    "@agentscript-ai/schema": "npm:^0.1.2"
-    "@agentscript-ai/utils": "npm:^0.1.2"
-    "@babel/parser": "npm:^7.26.3"
-    "@nzyme/ioc": "npm:^0.3.0"
-    "@nzyme/types": "npm:^0.3.0"
-    "@nzyme/utils": "npm:^0.3.0"
+    "@agentscript-ai/schema": "npm:^0.2.0"
+    "@agentscript-ai/utils": "npm:^0.2.0"
+    "@babel/parser": "npm:^7.26.5"
+    "@nzyme/ioc": "npm:^0.4.0"
+    "@nzyme/types": "npm:^0.4.0"
+    "@nzyme/utils": "npm:^0.4.0"
     debug: "npm:^4.4.0"
-  checksum: 10c0/aa32763c254e5a332357177850ca3ecb6767886ac8fc628a4f59c87c9e3628b6417463bd5a11f6cf8928959555f4adecbf9aa6811a4fcaf7e2a0b033112aca51
+    uuid: "npm:^11.0.5"
+  checksum: 10c0/1396fc28b198bb45450d0b7f079db2dd60f2f8a7d6ed38d190b1ebbe5280d1b44244b4d5c2e7b2daf02d5bd99271558cc07aca2364f00a8338c19b46d96444cc
   languageName: node
   linkType: hard
 
-"@agentscript-ai/eslint@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@agentscript-ai/eslint@npm:0.1.2"
+"@agentscript-ai/eslint@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@agentscript-ai/eslint@npm:0.2.0"
   dependencies:
-    "@nzyme/eslint": "npm:^0.3.0"
+    "@nzyme/eslint": "npm:^0.4.0"
     eslint: "npm:^9.17.0"
     eslint-plugin-import: "npm:^2.31.0"
-  checksum: 10c0/da036a42f30507932b279ba468005a1d49360df27282fc38d7aecb10131a458d64d84f33ac54ba06ace91764abc02e6e6ce3fea6bb60d3ccdc0fb094f8169ee2
+  checksum: 10c0/ee96ee938cf4ea71432ed52c0a7a624495cc8120ee28cfe6f5618d133f686d456cb6305f6d57b07ada87923e793793a1368ffa60fe1f8303af78b5ac7042f2eb
   languageName: node
   linkType: hard
 
@@ -48,15 +49,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@agentscript-ai/example-linear@workspace:linear"
   dependencies:
-    "@agentscript-ai/eslint": "npm:^0.1.2"
-    "@agentscript-ai/linear": "npm:^0.1.2"
-    "@agentscript-ai/tsconfig": "npm:^0.1.2"
+    "@agentscript-ai/eslint": "npm:^0.2.0"
+    "@agentscript-ai/linear": "npm:^0.2.0"
+    "@agentscript-ai/tsconfig": "npm:^0.2.0"
     "@types/node": "npm:^22.10.5"
-    agentscript-ai: "npm:^0.1.2"
+    agentscript-ai: "npm:^0.2.0"
     chalk: "npm:^5.4.1"
     dotenv-cli: "npm:^8.0.0"
     ts-node: "npm:^10.9.2"
-    typescript: "npm:^5.7.2"
+    typescript: "npm:^5.7.3"
   languageName: unknown
   linkType: soft
 
@@ -64,74 +65,85 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@agentscript-ai/example-simple-tools@workspace:simple-tools"
   dependencies:
-    "@agentscript-ai/eslint": "npm:^0.1.2"
-    "@agentscript-ai/tsconfig": "npm:^0.1.2"
+    "@agentscript-ai/eslint": "npm:^0.2.0"
+    "@agentscript-ai/tsconfig": "npm:^0.2.0"
     "@types/node": "npm:^22.10.5"
-    agentscript-ai: "npm:^0.1.2"
+    agentscript-ai: "npm:^0.2.0"
     chalk: "npm:^5.4.1"
     dotenv-cli: "npm:^8.0.0"
     ts-node: "npm:^10.9.2"
-    typescript: "npm:^5.7.2"
+    typescript: "npm:^5.7.3"
   languageName: unknown
   linkType: soft
 
-"@agentscript-ai/linear@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@agentscript-ai/linear@npm:0.1.2"
+"@agentscript-ai/examples@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@agentscript-ai/examples@workspace:."
   dependencies:
-    "@agentscript-ai/core": "npm:^0.1.2"
-    "@agentscript-ai/schema": "npm:^0.1.2"
-    "@nzyme/ioc": "npm:^0.3.0"
-    "@nzyme/utils": "npm:^0.3.0"
+    "@agentscript-ai/tsconfig": "npm:^0.2.0"
+    prettier: "npm:^3.4.2"
+    ts-node: "npm:^10.9.2"
+    typescript: "npm:^5.7.3"
+  languageName: unknown
+  linkType: soft
+
+"@agentscript-ai/linear@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@agentscript-ai/linear@npm:0.2.0"
+  dependencies:
+    "@agentscript-ai/core": "npm:^0.2.0"
+    "@agentscript-ai/schema": "npm:^0.2.0"
+    "@nzyme/ioc": "npm:^0.4.0"
+    "@nzyme/utils": "npm:^0.4.0"
     add: "npm:^2.0.6"
     debug: "npm:^4.4.0"
     graphql: "npm:^16.10.0"
     graphql-cli: "npm:^4.1.0"
     graphql-request: "npm:^7.1.2"
-  checksum: 10c0/52642cf439dbac6d5dd72048e0c318227329e5c59153aae3405ea0ab809f8a7ccdef94e2de4b72b8a8e572253e2c2772db7f2a96d40f25933b6d217dce8b24b9
+  checksum: 10c0/cd93100db2f85a297bc2def2a4da9377325e13f530bb069772376d96f5f170ef9628db680be03ab74134b25d6d5307758f48789229b3586301791bb03db6ca34
   languageName: node
   linkType: hard
 
-"@agentscript-ai/schema@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@agentscript-ai/schema@npm:0.1.2"
+"@agentscript-ai/schema@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@agentscript-ai/schema@npm:0.2.0"
   dependencies:
-    "@nzyme/utils": "npm:^0.3.0"
-    "@nzyme/zchema": "npm:^0.3.0"
-  checksum: 10c0/a6fb9383acf47cccc8449f79375c7f917b46785f13f74521fdbe49e05943a4372326dbe0224b2d1d7de16ee8a62304cb19ef96def3392d31211248c690051965
+    "@nzyme/utils": "npm:^0.4.0"
+    "@nzyme/zchema": "npm:^0.4.0"
+  checksum: 10c0/6ba4ec4ecb0172ff0d6983f1f900c279e3691b94ef2f9ceab2c7d4e8a403c31f08483e12abba400442d60c7fb39b196905b2a94645f03e40a805e4056b7b38e2
   languageName: node
   linkType: hard
 
-"@agentscript-ai/tools@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@agentscript-ai/tools@npm:0.1.2"
+"@agentscript-ai/tools@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@agentscript-ai/tools@npm:0.2.0"
   dependencies:
-    "@agentscript-ai/core": "npm:^0.1.2"
-    "@agentscript-ai/schema": "npm:^0.1.2"
-    "@agentscript-ai/utils": "npm:^0.1.2"
-    "@nzyme/ioc": "npm:^0.3.0"
-    "@nzyme/utils": "npm:^0.3.0"
+    "@agentscript-ai/core": "npm:^0.2.0"
+    "@agentscript-ai/schema": "npm:^0.2.0"
+    "@agentscript-ai/utils": "npm:^0.2.0"
+    "@nzyme/ioc": "npm:^0.4.0"
+    "@nzyme/utils": "npm:^0.4.0"
     date-fns: "npm:^4.1.0"
-  checksum: 10c0/ff34131e8f6698b8ea899c62ba7868cbfbe6aa1a9a2201a352ebc7ff7f7ff574632169663900cf99d61dfea48592bfce0c4b806c62ab15b5f99daf07c31a8c03
+  checksum: 10c0/c777b0afd7bee856c7f4cc791e0a92ca3693d656e98639a827e3376ff1e291f02fe8f3ee93ac378df4cd0bac7a25b3e6d176d8b3df527ec0f1c45d43bb841d1e
   languageName: node
   linkType: hard
 
-"@agentscript-ai/tsconfig@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@agentscript-ai/tsconfig@npm:0.1.2"
+"@agentscript-ai/tsconfig@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@agentscript-ai/tsconfig@npm:0.2.0"
   dependencies:
     "@types/node": "npm:^22.10.5"
-  checksum: 10c0/c7ab0d113f958c7e43ce6194c4e3938526904e5ccd91b3c7b4bd403a6830a3d676a604ce40c1f100ff92e6d033e2fddbdf02c25e3890912b914b495e1dc1da61
+  checksum: 10c0/a777d571985a3292c93d081d0779da50bc6fe798bf89534a4a5c21655ebe278874e0d71edbfd6843c3d93a80253f3ca8cb1c8e26ca3c269879e3c24ec5791d9d
   languageName: node
   linkType: hard
 
-"@agentscript-ai/utils@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@agentscript-ai/utils@npm:0.1.2"
+"@agentscript-ai/utils@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@agentscript-ai/utils@npm:0.2.0"
   dependencies:
-    "@nzyme/utils": "npm:^0.3.0"
-    "@nzyme/zchema": "npm:^0.3.0"
-  checksum: 10c0/dd7be4c36e032739266530becee481b4d6ac4e07b918c28a96b22f625c9c7f7606ad9c7d2e695a3f68521f9b2ec026ebd23ce99595abfa47eb349ba1541a3fe9
+    "@nzyme/utils": "npm:^0.4.0"
+    "@nzyme/zchema": "npm:^0.4.0"
+  checksum: 10c0/ff9f9a478edee2db33c054721234a49fce710a1469f53378097f440430c006e29d45eaf775a8ca190e1779272940544b278ee8e603626583d2883c8a03d75f1e
   languageName: node
   linkType: hard
 
@@ -184,24 +196,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.26.3":
-  version: 7.26.3
-  resolution: "@babel/parser@npm:7.26.3"
+"@babel/parser@npm:^7.26.5":
+  version: 7.26.5
+  resolution: "@babel/parser@npm:7.26.5"
   dependencies:
-    "@babel/types": "npm:^7.26.3"
+    "@babel/types": "npm:^7.26.5"
   bin:
     parser: ./bin/babel-parser.js
-  checksum: 10c0/48f736374e61cfd10ddbf7b80678514ae1f16d0e88bc793d2b505d73d9b987ea786fc8c2f7ee8f8b8c467df062030eb07fd0eb2168f0f541ca1f542775852cad
+  checksum: 10c0/2e77dd99ee028ee3c10fa03517ae1169f2432751adf71315e4dc0d90b61639d51760d622f418f6ac665ae4ea65f8485232a112ea0e76f18e5900225d3d19a61e
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.26.3":
-  version: 7.26.3
-  resolution: "@babel/types@npm:7.26.3"
+"@babel/types@npm:^7.26.5":
+  version: 7.26.5
+  resolution: "@babel/types@npm:7.26.5"
   dependencies:
     "@babel/helper-string-parser": "npm:^7.25.9"
     "@babel/helper-validator-identifier": "npm:^7.25.9"
-  checksum: 10c0/966c5242c5e55c8704bf7a7418e7be2703a0afa4d19a8480999d5a4ef13d095dd60686615fe5983cb7593b4b06ba3a7de8d6ca501c1d78bdd233a10d90be787b
+  checksum: 10c0/0278053b69d7c2b8573aa36dc5242cad95f0d965e1c0ed21ccacac6330092e59ba5949753448f6d6eccf6ad59baaef270295cc05218352e060ea8c68388638c4
   languageName: node
   linkType: hard
 
@@ -731,9 +743,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nzyme/eslint@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@nzyme/eslint@npm:0.3.0"
+"@nzyme/eslint@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@nzyme/eslint@npm:0.4.0"
   dependencies:
     "@typescript-eslint/eslint-plugin": "npm:^8.19.0"
     "@typescript-eslint/parser": "npm:^8.19.0"
@@ -744,59 +756,59 @@ __metadata:
     eslint-plugin-monorepo: "npm:^0.3.2"
     eslint-plugin-vue: "npm:^9.32.0"
     eslint-plugin-workspaces: "npm:^0.10.1"
-  checksum: 10c0/4c92fc21602c06dc694841be3870a2a2b48f4c3fca5459b89bad5e1fab0ee6b0304e1a4a2e06502a83fd69784648d2d377a5d7f91ffed6f0eeb30475891fc0d7
+  checksum: 10c0/609f0f94438e8262ca09913fbf6d6acb22d37c9a88fe084cb0e344d195d768a71172b8bc7597677d58a7b6befeada9fcc4946c65fbc4a5da5dd1c2486a17d477
   languageName: node
   linkType: hard
 
-"@nzyme/ioc@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@nzyme/ioc@npm:0.3.0"
+"@nzyme/ioc@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@nzyme/ioc@npm:0.4.0"
   dependencies:
-    "@nzyme/types": "npm:^0.3.0"
-    "@nzyme/utils": "npm:^0.3.0"
-  checksum: 10c0/6a4d8479725ffd3f7cb4a99864798d27d16299c33f9b93e2586f53b8ac88f4780748374ba52dc91d552d850fd132805901b0778de3695ae530a6c162f382d4d6
+    "@nzyme/types": "npm:^0.4.0"
+    "@nzyme/utils": "npm:^0.4.0"
+  checksum: 10c0/386913646481eebe2e6e72d6b5f12d45649a9a48caf0908818ca7149ef669610a18e8b520b008cbec7a56cbb2161c6c8e35eb2ee63b7832115b835731da68de1
   languageName: node
   linkType: hard
 
-"@nzyme/types@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@nzyme/types@npm:0.3.0"
+"@nzyme/types@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@nzyme/types@npm:0.4.0"
   dependencies:
     tslib: "npm:^2.8.1"
     type-fest: "npm:^4.31.0"
-  checksum: 10c0/82f4f25ebfc216538c3d063260b26d4e9126d98f5ef40b4e64aa107ab6a506b31631d9f541182f54e4a4c4688d01262c763108248bc8fef0ad364e10c786e2d1
+  checksum: 10c0/cc3de6250bea9831ac5b6a9755c6a5f96d6564274121227734be9d18a7ce5dcaa85f489262d39f3870cdc277c34d720f55a27f652bb0520f7709b5a02f123b77
   languageName: node
   linkType: hard
 
-"@nzyme/utils@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@nzyme/utils@npm:0.3.0"
+"@nzyme/utils@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@nzyme/utils@npm:0.4.0"
   dependencies:
-    "@nzyme/types": "npm:^0.3.0"
+    "@nzyme/types": "npm:^0.4.0"
     "@types/lodash.isequal": "npm:^4.5.8"
     lodash.isequal: "npm:^4.5.0"
-  checksum: 10c0/0bd5ecfcab6b81eb064324fa3ea3ec5b0cb7aa307af0580c5bfb328aa9250ea4accd6dcfb30e44bd98e6825bf2afd1aab26b1394743ef3b3d7912f279d948715
+  checksum: 10c0/cc111914aaa92fb3533026d0385a68c494b3a7ab10d0d7bd6e9cd00005b26d30b3e3cb49795e8d9f4952030b9afbf5508bc79a0d6bb69cf82405034ba64599e3
   languageName: node
   linkType: hard
 
-"@nzyme/validation@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@nzyme/validation@npm:0.3.0"
+"@nzyme/validation@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@nzyme/validation@npm:0.4.0"
   dependencies:
-    "@nzyme/types": "npm:^0.3.0"
-    "@nzyme/utils": "npm:^0.3.0"
-  checksum: 10c0/643c302a6a72c88c8cdeb5e61677fa9f345ede79c01fcf369a74c2da811479f535d2d2d56a3591eb6e5c15e06ed40adb079734c492c880a6e6241de14ad57609
+    "@nzyme/types": "npm:^0.4.0"
+    "@nzyme/utils": "npm:^0.4.0"
+  checksum: 10c0/3e52a356a1f82f01b69f3b961d5df9631567fddd034c204e1c51f6bbb412d93d8021180e911f76478291d5b862ff3165d77fdaf5f1eb85c629cf5ebce3f67b6a
   languageName: node
   linkType: hard
 
-"@nzyme/zchema@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@nzyme/zchema@npm:0.3.0"
+"@nzyme/zchema@npm:^0.4.0":
+  version: 0.4.0
+  resolution: "@nzyme/zchema@npm:0.4.0"
   dependencies:
-    "@nzyme/types": "npm:^0.3.0"
-    "@nzyme/utils": "npm:^0.3.0"
-    "@nzyme/validation": "npm:^0.3.0"
-  checksum: 10c0/94a475137cb901be6874674bc6f48795f655e0d2b7ab180b99541bc5eacbe7205231e021110fb3d751d0562b76adbfb758e875a722ec649be42319d630104cea
+    "@nzyme/types": "npm:^0.4.0"
+    "@nzyme/utils": "npm:^0.4.0"
+    "@nzyme/validation": "npm:^0.4.0"
+  checksum: 10c0/2922bcefcb369e5806cc82a4ac8d8fba3ad7fb022cce08a3863beead65d967f06929543fb7d4d9d33c35b2df4d1eb33c0b97f96989a841cc028151eea8d06cb8
   languageName: node
   linkType: hard
 
@@ -1130,16 +1142,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"agentscript-ai@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "agentscript-ai@npm:0.1.2"
+"agentscript-ai@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "agentscript-ai@npm:0.2.0"
   dependencies:
-    "@agentscript-ai/anthropic": "npm:^0.1.2"
-    "@agentscript-ai/core": "npm:^0.1.2"
-    "@agentscript-ai/schema": "npm:^0.1.2"
-    "@agentscript-ai/tools": "npm:^0.1.2"
-    "@agentscript-ai/utils": "npm:^0.1.2"
-  checksum: 10c0/0745fa066f6c79e2b0c14cb44d372d651950d289aab0371bd531b37bd0ade88944a11bde234497c1b8fdb39d693fd9d2ea3b87b67522d3f6b8e63872aa8a5b7a
+    "@agentscript-ai/anthropic": "npm:^0.2.0"
+    "@agentscript-ai/core": "npm:^0.2.0"
+    "@agentscript-ai/schema": "npm:^0.2.0"
+    "@agentscript-ai/tools": "npm:^0.2.0"
+    "@agentscript-ai/utils": "npm:^0.2.0"
+  checksum: 10c0/bf62387fdb259709f59db583d984459519d85265ab773b0a3d86197897f504f82f2b2ad3067430e1f4e34c92b63e7a19365cef2d9d0174279bb880becf0c0824
   languageName: node
   linkType: hard
 
@@ -5294,17 +5306,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"root-workspace-0b6124@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "root-workspace-0b6124@workspace:."
-  dependencies:
-    "@agentscript-ai/tsconfig": "npm:^0.1.2"
-    prettier: "npm:^3.4.2"
-    ts-node: "npm:^10.9.2"
-    typescript: "npm:^5.7.2"
-  languageName: unknown
-  linkType: soft
-
 "run-async@npm:^2.4.0":
   version: 2.4.1
   resolution: "run-async@npm:2.4.1"
@@ -6143,23 +6144,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.7.2":
-  version: 5.7.2
-  resolution: "typescript@npm:5.7.2"
+"typescript@npm:^5.7.3":
+  version: 5.7.3
+  resolution: "typescript@npm:5.7.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/a873118b5201b2ef332127ef5c63fb9d9c155e6fdbe211cbd9d8e65877283797cca76546bad742eea36ed7efbe3424a30376818f79c7318512064e8625d61622
+  checksum: 10c0/b7580d716cf1824736cc6e628ab4cd8b51877408ba2be0869d2866da35ef8366dd6ae9eb9d0851470a39be17cbd61df1126f9e211d8799d764ea7431d5435afa
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.7.2#optional!builtin<compat/typescript>":
-  version: 5.7.2
-  resolution: "typescript@patch:typescript@npm%3A5.7.2#optional!builtin<compat/typescript>::version=5.7.2&hash=5786d5"
+"typescript@patch:typescript@npm%3A^5.7.3#optional!builtin<compat/typescript>":
+  version: 5.7.3
+  resolution: "typescript@patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/f3b8082c9d1d1629a215245c9087df56cb784f9fb6f27b5d55577a20e68afe2a889c040aacff6d27e35be165ecf9dca66e694c42eb9a50b3b2c451b36b5675cb
+  checksum: 10c0/6fd7e0ed3bf23a81246878c613423730c40e8bdbfec4c6e4d7bf1b847cbb39076e56ad5f50aa9d7ebd89877999abaee216002d3f2818885e41c907caaa192cc4
   languageName: node
   linkType: hard
 
@@ -6241,6 +6242,15 @@ __metadata:
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
   checksum: 10c0/41a5bdd214df2f6c3ecf8622745e4a366c4adced864bc3c833739791aeeeb1838119af7daed4ba36428114b5c67dcda034a79c882e97e43c03e66a4dd7389942
+  languageName: node
+  linkType: hard
+
+"uuid@npm:^11.0.5":
+  version: 11.0.5
+  resolution: "uuid@npm:11.0.5"
+  bin:
+    uuid: dist/esm/bin/uuid
+  checksum: 10c0/6f59f0c605e02c14515401084ca124b9cb462b4dcac866916a49862bcf831874508a308588c23a7718269226ad11a92da29b39d761ad2b86e736623e3a33b6e7
   languageName: node
   linkType: hard
 
