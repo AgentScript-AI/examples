@@ -57,7 +57,7 @@ node_modules/
 .yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
-.pnp.*
+.pnp.*yarn
 
 # macOS
 .DS_Store
@@ -66,3 +66,6 @@ dist
 .nx
 .turbo
 tsconfig.dev.json
+
+# not needed for examples and messes up monorepo
+yarn.lock

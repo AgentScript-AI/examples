@@ -33,7 +33,7 @@ const tools = {
 };
 
 // Define a task for the agent
-const prompt = 'Give me a progress update of tasks created in the last week';
+const prompt = 'Give me a progress update of tasks created in the last month';
 
 // Define the expected output
 const output = s.string();
