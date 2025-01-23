@@ -7,8 +7,9 @@
     "author": "Michał Kędrzyński <m.kedrzynski@gmail.com>",
     "private": true,
     "scripts": {
-        "upgrade": "yarn up agentscript-ai \"@agentscript-ai/*\"",
-        "upgrade:interactive": "yarn upgrade -i && yarn upgrade-interactive"
+        "upgrade:agentscript": "yarn up agentscript-ai \"@agentscript-ai/*\"",
+        "upgrade:nzyme": "yarn up \"@nzyme/*\"",
+        "upgrade:interactive": "yarn upgrade-interactive"
     },
     "devDependencies": {
         "@agentscript-ai/tsconfig": "^0.3.0",

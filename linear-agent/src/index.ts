@@ -7,7 +7,7 @@ import * as s from 'agentscript-ai/schema';
 import { addToDate, summarizeData } from 'agentscript-ai/tools';
 
 // Configure the language model
-const llm = AnthropicModel({
+const model = AnthropicModel({
     model: 'claude-3-5-sonnet-latest',
     apiKey: process.env.ANTHROPIC_API_KEY,
     maxTokens: 1024,
@@ -23,12 +23,12 @@ const tools = {
     // Needed for date calculation
     addToDate,
     // Turns data into text
-    summarizeData: summarizeData({ llm }),
+    summarizeData: summarizeData({ model }),
     // We'll wrap Linear tools in a namespace
     linear: {
         // Search issues in Linear
         // It's a tool that uses LLM to generate a Linear query and then executes it
-        searchIssues: searchIssues({ llm, linear }),
+        searchIssues: searchIssues({ model, linear }),
     },
 };
 
@@ -42,7 +42,7 @@ const output = s.string();
 const agent = await inferAgent({
     tools,
     output,
-    llm,
+    model,
     prompt,
 });
 

@@ -54,7 +54,7 @@ const squareRoot = defineTool({
 });
 
 // Then we define the language model
-const llm = AnthropicModel({
+const model = AnthropicModel({
     model: 'claude-3-5-sonnet-latest',
     apiKey: process.env.ANTHROPIC_API_KEY,
     maxTokens: 1024,
@@ -76,7 +76,7 @@ const output = s.number();
 
 // Let the LLM infer the agent based on the prompt and runtime
 const agent = await inferAgent({
-    llm,
+    model,
     tools,
     output,
     prompt,
