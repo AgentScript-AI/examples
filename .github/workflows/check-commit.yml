@@ -31,5 +31,3 @@ jobs:
             git commit -a -m "chore: update dependencies"
             git push
           fi
-
-      - run: yarn build
