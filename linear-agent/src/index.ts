@@ -1,17 +1,13 @@
+import { anthropic } from '@ai-sdk/anthropic';
 import chalk from 'chalk';
 
 import { LinearClient, searchIssues } from '@agentscript-ai/linear';
 import { executeAgent, inferAgent } from 'agentscript-ai';
-import { AnthropicModel } from 'agentscript-ai/anthropic';
 import * as s from 'agentscript-ai/schema';
 import { addToDate, summarizeData } from 'agentscript-ai/tools';
 
 // Configure the language model
-const model = AnthropicModel({
-    model: 'claude-3-5-sonnet-latest',
-    apiKey: process.env.ANTHROPIC_API_KEY,
-    maxTokens: 1024,
-});
+const model = anthropic('claude-3-5-sonnet-latest');
 
 // Configure the Linear client
 const linear = LinearClient({

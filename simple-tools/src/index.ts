@@ -1,7 +1,7 @@
+import { anthropic } from '@ai-sdk/anthropic';
 import chalk from 'chalk';
 
 import { defineTool, executeAgent, inferAgent } from 'agentscript-ai';
-import { AnthropicModel } from 'agentscript-ai/anthropic';
 import * as s from 'agentscript-ai/schema';
 
 // First we define some tools
@@ -54,11 +54,7 @@ const squareRoot = defineTool({
 });
 
 // Then we define the language model
-const model = AnthropicModel({
-    model: 'claude-3-5-sonnet-latest',
-    apiKey: process.env.ANTHROPIC_API_KEY,
-    maxTokens: 1024,
-});
+const model = anthropic('claude-3-5-sonnet-latest');
 
 const tools = {
     add,
