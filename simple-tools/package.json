@@ -14,17 +14,16 @@
     "scripts": {
         "eslint": "eslint . --fix --cache",
         "build": "tsc --build",
-        "start": "dotenv -e ../.env -e .env -- node --loader ts-node/esm ./src/index.ts"
+        "start": "dotenv -e ../.env -e .env -- ts-node ./src/index.ts"
     },
     "dependencies": {
         "@ai-sdk/anthropic": "^1.1.4",
-        "agentscript-ai": "^0.5.0",
+        "agentscript-ai": "^0.6.0",
         "chalk": "^5.4.1"
     },
     "devDependencies": {
-        "@agentscript-ai/eslint": "^0.5.0",
-        "@agentscript-ai/tsconfig": "^0.5.0",
-        "@types/node": "^22.10.7",
+        "@agentscript-ai/eslint": "^0.6.0",
+        "@agentscript-ai/tsconfig": "^0.6.0",
         "dotenv-cli": "^8.0.0",
         "ts-node": "^10.9.2",
         "typescript": "^5.7.3"

@@ -1,7 +1,7 @@
 import { anthropic } from '@ai-sdk/anthropic';
 import chalk from 'chalk';
 
-import { defineTool, executeAgent, inferAgent } from 'agentscript-ai';
+import { defineTool, executeAgent, inferAgent, planMetadata } from 'agentscript-ai';
 import * as s from 'agentscript-ai/schema';
 
 // First we define some tools
@@ -80,7 +80,7 @@ const agent = await inferAgent({
 
 // We have the agent ready, but it's not yet executed
 console.log(chalk.green('Generated plan:'));
-console.log(agent.plan);
+console.log(planMetadata(agent));
 console.log();
 
 console.log(chalk.green('Generated code:'));
