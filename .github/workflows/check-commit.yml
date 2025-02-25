@@ -2,6 +2,9 @@ name: Check commit
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -19,7 +22,7 @@ jobs:
         env:
           YARN_ENABLE_IMMUTABLE_INSTALLS: false
 
-      - run: yarn upgrade
+      - run: yarn upgrade:auto
 
       - name: Commit package updates
         run: |
