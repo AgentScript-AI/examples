@@ -65,7 +65,7 @@ node_modules/
 dist
 .nx
 .turbo
-tsconfig.dev.json
+.nzyme
 
 # not needed for examples and messes up monorepo
 yarn.lock
