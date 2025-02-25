@@ -17,7 +17,7 @@
         "start": "dotenv -e ../.env -e .env -- ts-node ./src/index.ts"
     },
     "dependencies": {
-        "@ai-sdk/anthropic": "^1.1.4",
+        "@ai-sdk/anthropic": "^1.1.10",
         "agentscript-ai": "^0.6.0",
         "chalk": "^5.4.1"
     },
