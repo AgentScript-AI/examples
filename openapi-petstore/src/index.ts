@@ -3,13 +3,13 @@ import fs from 'fs/promises';
 import { anthropic } from '@ai-sdk/anthropic';
 import chalk from 'chalk';
 
-import { toolsFromOpenApi } from '@agentscript-ai/openapi';
+import { parseOpenApiDoc, toolsFromOpenApi } from '@agentscript-ai/openapi';
 import { executeAgent, inferAgent, planMetadata, renderRuntime } from 'agentscript-ai';
 
 const apiUrl = 'https://petstore3.swagger.io/api/v3';
 const specUrl = 'https://petstore3.swagger.io/api/v3/openapi.json';
-
-const spec = await fetch(specUrl).then(r => r.text());
+const specText = await fetch(specUrl).then(r => r.text());
+const spec = await parseOpenApiDoc(specText);
 
 // Then we define the language model
 const model = anthropic('claude-3-5-sonnet-latest');
@@ -17,7 +17,7 @@ const model = anthropic('claude-3-5-sonnet-latest');
 // Define a task for the agent
 const prompt = 'I want to buy a dog';
 
-const tools = await toolsFromOpenApi({
+const tools = toolsFromOpenApi({
     spec,
     baseUrl: apiUrl,
 });
