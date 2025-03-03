@@ -18,8 +18,8 @@
     },
     "dependencies": {
         "@agentscript-ai/openapi": "^0.7.0",
-        "@ai-sdk/anthropic": "^1.1.10",
-        "@ai-sdk/google": "^1.1.17",
+        "@ai-sdk/anthropic": "^1.1.13",
+        "@ai-sdk/google": "^1.1.18",
         "agentscript-ai": "^0.7.0",
         "axios": "^1.8.1",
         "chalk": "^5.4.1"
@@ -29,6 +29,6 @@
         "@agentscript-ai/tsconfig": "^0.7.0",
         "dotenv-cli": "^8.0.0",
         "ts-node": "^10.9.2",
-        "typescript": "^5.7.3"
+        "typescript": "^5.8.2"
     }
 }
