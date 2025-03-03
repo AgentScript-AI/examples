@@ -1,0 +1,34 @@
+{
+    "name": "@agentscript-ai/example-openapi-shopware",
+    "license": "Elastic License 2.0 (ELv2)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AgentScript-AI/agentscript.git"
+    },
+    "author": "Michał Kędrzyński <m.kedrzynski@gmail.com>",
+    "private": true,
+    "type": "module",
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "eslint": "eslint . --fix --cache",
+        "build": "tsc --build",
+        "start": "dotenv -e ../.env -e .env -- ts-node ./src/index.ts"
+    },
+    "dependencies": {
+        "@agentscript-ai/openapi": "^0.6.0",
+        "@ai-sdk/anthropic": "^1.1.10",
+        "@ai-sdk/google": "^1.1.17",
+        "agentscript-ai": "^0.6.0",
+        "axios": "^1.8.1",
+        "chalk": "^5.4.1"
+    },
+    "devDependencies": {
+        "@agentscript-ai/eslint": "^0.6.0",
+        "@agentscript-ai/tsconfig": "^0.6.0",
+        "dotenv-cli": "^8.0.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.3"
+    }
+}

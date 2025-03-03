@@ -1,0 +1,10 @@
+{
+    "extends": "@agentscript-ai/tsconfig/esm.json",
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "tsBuildInfoFile": "./.tsbuildinfo"
+    },
+    "include": ["src"],
+    "references": []
+}
