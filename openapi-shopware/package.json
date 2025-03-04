@@ -18,18 +18,18 @@
         "replay": "dotenv -e ../.env -e .env -- ts-node-esm ./src/replay.ts"
     },
     "dependencies": {
-        "@agentscript-ai/openapi": "^0.7.0",
+        "@agentscript-ai/openapi": "^0.8.0",
         "@ai-sdk/anthropic": "^1.1.13",
         "@ai-sdk/google": "^1.1.18",
         "@types/fs-extra": "^11.0.4",
-        "agentscript-ai": "^0.7.0",
+        "agentscript-ai": "^0.8.0",
         "axios": "^1.8.1",
         "chalk": "^5.4.1",
         "fs-extra": "^11.3.0"
     },
     "devDependencies": {
-        "@agentscript-ai/eslint": "^0.7.0",
-        "@agentscript-ai/tsconfig": "^0.7.0",
+        "@agentscript-ai/eslint": "^0.8.0",
+        "@agentscript-ai/tsconfig": "^0.8.0",
         "dotenv-cli": "^8.0.0",
         "ts-node": "^10.9.2",
         "typescript": "^5.8.2"

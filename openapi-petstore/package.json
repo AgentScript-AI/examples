@@ -17,14 +17,14 @@
         "start": "dotenv -e ../.env -e .env -- ts-node ./src/index.ts"
     },
     "dependencies": {
-        "@agentscript-ai/openapi": "^0.7.0",
+        "@agentscript-ai/openapi": "^0.8.0",
         "@ai-sdk/anthropic": "^1.1.13",
-        "agentscript-ai": "^0.7.0",
+        "agentscript-ai": "^0.8.0",
         "chalk": "^5.4.1"
     },
     "devDependencies": {
-        "@agentscript-ai/eslint": "^0.7.0",
-        "@agentscript-ai/tsconfig": "^0.7.0",
+        "@agentscript-ai/eslint": "^0.8.0",
+        "@agentscript-ai/tsconfig": "^0.8.0",
         "dotenv-cli": "^8.0.0",
         "ts-node": "^10.9.2",
         "typescript": "^5.8.2"
