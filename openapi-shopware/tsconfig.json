@@ -3,7 +3,9 @@
     "compilerOptions": {
         "outDir": "./dist",
         "rootDir": "./src",
-        "tsBuildInfoFile": "./.tsbuildinfo"
+        "tsBuildInfoFile": "./.tsbuildinfo",
+        "allowImportingTsExtensions": true,
+        "emitDeclarationOnly": true
     },
     "include": ["src"],
     "references": []
