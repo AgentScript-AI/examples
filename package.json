@@ -11,7 +11,7 @@
         "upgrade": "yarn upgrade:auto && yarn upgrade-interactive"
     },
     "devDependencies": {
-        "@agentscript-ai/tsconfig": "^0.7.0",
+        "@agentscript-ai/tsconfig": "^0.7.2",
         "prettier": "^3.5.3",
         "ts-node": "^10.9.2",
         "typescript": "^5.8.2"
