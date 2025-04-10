@@ -10,7 +10,7 @@
         "update": "yarn upgrade-interactive"
     },
     "devDependencies": {
-        "@agentscript-ai/tsconfig": "^0.8.0",
+        "@agentscript-ai/tsconfig": "^0.9.0",
         "@nzyme/eslint": "^0.12.1",
         "eslint": "^9.24.0",
         "prettier": "^3.5.3",
