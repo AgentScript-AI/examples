@@ -1,5 +1,0 @@
-{
-    "extends": "@agentscript-ai/tsconfig/base.json",
-    "include": [],
-    "references": []
-}

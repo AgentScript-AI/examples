@@ -1,5 +1,5 @@
 {
-    "name": "@agentscript-ai/example-simple-tools",
+    "name": "@agentscript-ai/example-openapi-petstore",
     "license": "Elastic License 2.0 (ELv2)",
     "repository": {
         "type": "git",
@@ -17,6 +17,7 @@
         "start": "dotenv -e ../.env -e .env -- ts-node ./src/index.ts"
     },
     "dependencies": {
+        "@agentscript-ai/openapi": "^0.8.0",
         "@ai-sdk/anthropic": "^1.2.9",
         "agentscript-ai": "^0.8.0",
         "chalk": "^5.4.1"

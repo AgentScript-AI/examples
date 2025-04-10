@@ -1,0 +1,5 @@
+{
+    "extends": "@agentscript-ai/tsconfig/esm.json",
+    "include": [],
+    "references": []
+}

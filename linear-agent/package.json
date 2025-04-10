@@ -8,18 +8,18 @@
     "author": "Michał Kędrzyński <m.kedrzynski@gmail.com>",
     "private": true,
     "type": "module",
-    "main": "./dist/index.js",
+    "main": "./dist/index.cjs",
     "module": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "scripts": {
-        "eslint": "eslint . --fix --cache",
-        "build": "tsc --build",
+        "lint": "eslint . --fix --cache",
+        "build:esm": "tsc --build ./tsconfig.esm.json",
         "start": "dotenv -e ../.env -e .env -- node --loader ts-node/esm ./src/index.ts",
         "dev": "dotenv -e ../.env -e .env -- node ./dist/index.js"
     },
     "dependencies": {
         "@agentscript-ai/linear": "^0.8.0",
-        "@ai-sdk/anthropic": "^1.1.13",
+        "@ai-sdk/anthropic": "^1.2.9",
         "agentscript-ai": "^0.8.0",
         "chalk": "^5.4.1"
     },
@@ -27,7 +27,8 @@
         "@agentscript-ai/eslint": "^0.8.0",
         "@agentscript-ai/tsconfig": "^0.8.0",
         "dotenv-cli": "^8.0.0",
+        "eslint": "^9.24.0",
         "ts-node": "^10.9.2",
-        "typescript": "^5.8.2"
+        "typescript": "^5.8.3"
     }
 }
